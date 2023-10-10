@@ -11,6 +11,6 @@ const router = createBrowserRouter([
     //   path: "*",
     //   element: <NotFound/>
     // }
-])
+], {basename: "/university-frontend"})
 
 export default router;
